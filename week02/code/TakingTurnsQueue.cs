@@ -45,7 +45,7 @@ public class TakingTurnsQueue
                 person.Turns -= 1;
                 _people.Enqueue(person);
             }
-
+ 
             return person;
         }
     }
